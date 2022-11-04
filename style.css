@@ -1,0 +1,27 @@
+body
+{
+    margin: 0;
+    background: #1769bf;
+}
+
+iframe
+{
+    padding-bottom: 90px;
+}
+
+form
+{
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+    padding:10px;
+    padding-top: 60px;
+}
+
+input
+{
+    width:100%;
+   font-size:24px;
+   margin:5px 0;
+
+}
