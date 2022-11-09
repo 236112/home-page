@@ -1,27 +1,138 @@
+html, body
+{
+    height: 100%;
+}
+
 body
 {
     margin: 0;
-    background: #1769bf;
+    background: #ff9122;
+    text-align: center;
+    padding: 0, 30px;
 }
 
-iframe
+h1
 {
-    padding-bottom: 90px;
+    margin: 0, auto;
+    padding-top: 150px;
+    width: 100%;
+    text-align: center;
 }
 
+a
+{
+    text-decoration: none;
+}
+/* SEARCH BAR */
 form
 {
     width:100%;
     max-width:600px;
-    margin:0 auto;
-    padding:10px;
-    padding-top: 60px;
+    margin:0, auto;
 }
 
 input
 {
     width:100%;
    font-size:24px;
-   margin:5px 0;
+   margin:5px, 0;
+   float: left;
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: center
+}
 
+.Search{
+    width:85%;
+ }
+ .Submit{
+    width:15%;
+    background:#000;
+    color:#FFF;
+    text-align: center;
+ }
+/* CLOCK */ 
+#clock
+{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+
+/*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks{
+    padding:30px;
+    clear: both;
+ }
+ .bookmarks a{
+    font-size:42px;
+    margin:0 30px;
+    line-height:32px;
+    color:#ffecc3;
+    transition:.2s;
+    text-decoration:none;
+    vertical-align: bottom;
+    cursor: pointer;
+ }
+ .bookmarks a:hover{
+    font-size:72px;
+    position:relative;
+    line-height:26px;
+ }
+
+ /*
+=================================================
+POST-IT NOTE (IN CSS)
+=================================================
+*/
+#note{
+    width:250px;
+    height:250px;
+    resize: none;
+    background:#F3F19D;
+    padding:15px;
+    border:none;
+    position: absolute;
+    bottom:25px;
+    left:25px;
+    font-family:sans-serif;
+   }
+   
+   @media only screen and (max-width: 900px) {
+    h1{
+        margin-top:50px;
+        font-size:100px;
+    }
+ }
+ 
+ 
+ @media only screen and (max-width: 600px) {
+    h1{
+        margin-top:50px;
+        font-size:75px;
+    }
+    .bookmarks i{
+    margin:0 15px;
+    }
+ }
+ 
+ /*
+ ==================================
+ CALCULATOR
+ ==================================
+ */
+ .calculator
+ {
+    position: absolute;
+    bottom:50px;
+    right:50px;
+}
+#calc{
+    transition:.2s;
+    opacity:0;
 }
