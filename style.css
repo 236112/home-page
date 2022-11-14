@@ -13,10 +13,10 @@ body
 
 h1
 {
+    padding-top: 250px;
     margin: 0, auto;
-    padding-top: 150px;
-    width: 100%;
-    text-align: center;
+    font-family: Arial, Black, Bold;
+    
 }
 
 a
@@ -24,34 +24,28 @@ a
     text-decoration: none;
 }
 /* SEARCH BAR */
-form
-{
-    width:100%;
-    max-width:600px;
-    margin:0, auto;
+form{
+   width:100%;
+   max-width:600px;
+   margin:0 auto;
 }
-
-input
-{
-    width:100%;
-   font-size:24px;
-   margin:5px, 0;
-   float: left;
-    border: none;
-    outline: none;
-    padding: 10px;
-    text-align: center
+input{
+   width:100%;
+  max-width:600px;
+   font-size:32px;
+   margin:5px, auto;
+   border:none;
+   padding:10px;
+   outline:none;
 }
-
-.Search{
-    width:85%;
- }
- .Submit{
-    width:15%;
-    background:#000;
-    color:#FFF;
-    text-align: center;
- }
+.search-bar{
+   width:96.63%;
+}
+.submit-button{
+   width:100%;
+   background:#000;
+   color:#FFF;
+}
 /* CLOCK */ 
 #clock
 {
@@ -66,24 +60,20 @@ BOOKMARKS
 =================================================
 */
 .bookmarks{
-    padding:30px;
-    clear: both;
- }
- .bookmarks a{
-    font-size:42px;
-    margin:0 30px;
-    line-height:32px;
-    color:#ffecc3;
-    transition:.2s;
-    text-decoration:none;
-    vertical-align: bottom;
-    cursor: pointer;
- }
- .bookmarks a:hover{
-    font-size:72px;
-    position:relative;
-    line-height:26px;
- }
+   padding:30px;
+   clear:both;
+}
+.bookmarks i{
+   font-size:42px;
+   margin:0 20px;
+   color:#ffecc3;
+   transition:.15s;
+   vertical-align: top;
+}
+.bookmarks i:hover{
+   font-size:72px;
+   position:relative;
+}
 
  /*
 =================================================
