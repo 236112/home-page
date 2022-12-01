@@ -69,6 +69,7 @@ BOOKMARKS
    color:#ffecc3;
    transition:.15s;
    vertical-align: top;
+   cursor:pointer;
 }
 .bookmarks i:hover{
    font-size:72px;
@@ -91,6 +92,8 @@ POST-IT NOTE (IN CSS)
     bottom:25px;
     left:25px;
     font-family:sans-serif;
+    transition:.2s;
+    opacity:0;
    }
    
    @media only screen and (max-width: 900px) {
